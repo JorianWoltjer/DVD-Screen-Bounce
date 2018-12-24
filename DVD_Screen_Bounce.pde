@@ -52,18 +52,6 @@ void draw() {
     tint(random(255), random(255), random(255));
   }
 
-  //Bug fix for x
-  if (x > width) {
-  }
-  if (x < 0) {
-  }
-  //Bug fix for y
-  if (y > height) {
-  }
-  if (y < 0) {
-  }
-
-
   // Movement
   x = x + xspeed;
   y = y + yspeed;
