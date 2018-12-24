@@ -2,11 +2,10 @@ float    x;
 float    y;
 float    xspeed;
 float    yspeed;
+PImage   logo;
 
 float    xspeedChange = 2;
 float    yspeedChange = 2;
-PImage   logo;
-
 
 void setup() {
   size(640, 360);
@@ -29,8 +28,6 @@ void draw() {
   colorMode(RGB);
   stroke(255);
   strokeWeight(5);
-
-
 
   colorMode(RGB);
   strokeWeight(50);
